@@ -1,0 +1,32 @@
+# .gitignore
+
+# Ignore Python-related files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment files
+venv/
+env/
+*.env
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and runtime directories
+logs/
+*.log
+
+# Ignore specific files
+train.csv
+example_test_files/
+optiver2023/
+public_timeseries_testing_util
